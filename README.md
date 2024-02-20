@@ -72,25 +72,3 @@ To use the `cogagent-chat-hf` model, follow these steps:
    ```
     python run_cogagent_chat.py -i images_to_caption.txt -o ./image_captions.csv --context-prompt "Provide a detailed description of this image from the perspective of captain jack sparrow"
    ```
-
-3. Initialize the chatbot:
-
-   ```python
-   chatbot = cogagent_chat_hf.ChatBot(model)
-   ```
-
-4. Start a conversation:
-
-   ```python
-   user_input = input("User: ")
-   response = chatbot.generate_response(user_input)
-   print("ChatBot:", response)
-   ```
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
