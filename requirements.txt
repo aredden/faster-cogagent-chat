@@ -1,0 +1,5 @@
+torch_bnb_fp4 @ git+https://github.com/aredden/torch-bnb-fp4
+loguru
+einops
+pydantic<2
+xformers
